@@ -10,15 +10,15 @@ function calculateBmi(){
 		
 		switch(true){
 			case (finalBmi < 18.5):
-				$("#feedback").html("That you are too thin.");
+				$("#feedback").html("You are too thin.");
 				break;
 
 			case (finalBmi > 18.5 && finalBmi < 25):
-				$("#feedback").html("That you are healthy.");
+				$("#feedback").html("You are healthy.");
 				break;
 
 			case (finalBmi > 25):
-				$("#feedback").html("That you have overweight.");
+				$("#feedback").html("You are overweight.");
 				break;
 		}
 	}
